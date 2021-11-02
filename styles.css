@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Zen+Old+Mincho&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.all_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    height: 10vh;
+    background-color: #2874f0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    padding-left: 13px;
+   
+}
+.logo{
+    padding-left: 12px;
+}
+
+
+header nav ul li{
+    padding: 16px 22px;
+    font-family:'Roboto Condensed', sans-serif ;
+    font-size: large;    
+}
+header nav ul li a{
+    color: white;
+    text-decoration: none; 
+    /* to remove the underlying line from the hyperlinks */
+}
+header nav ul li a:hover{
+    font-weight: bold;   
+}
+#search{
+    width: 30vw;
+}
+.searchbar{
+    margin: 0 60px;
+}
+.btn{
+    background-color: white;
+    color: black;
+    border: 2px solid yellow;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.btn:hover{
+    font-weight: bold;
+    background-color: cornflowerblue;
+    color: white;
+}
+.container{
+    min-height:80vh
+}
+#mainimage{
+    height: 50vh;
+    width: 80vw;
+    margin: 1vh 8vw
+}
+.slider{
+    overflow: hidden;
+}
+.heading{
+    height: 31px;
+    width: auto;
+    background-color:#00ffe7;
+    color: black;
+    margin: 0px 35px;
+    padding: 7px 8px;
+
+}
+.containersmall{
+    margin: 7px 0px;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+    width: auto;
+    margin: 0px 34px;
+    padding: 42px 10px;
+    background-color: blanchedalmond;
+    overflow: hidden;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.lines{
+    font-family: 'Zen Old Mincho', serif;
+}
+
+footer{
+    background-color: #212121;
+    color: aliceblue;
+    height: 10vh;
+    width: 100vw;
+    font-family: 'Roboto Condensed', sans-serif;
+}
