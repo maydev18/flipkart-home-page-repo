@@ -109,6 +109,6 @@ footer{
     background-color: #212121;
     color: aliceblue;
     height: 10vh;
-    width: 100vw;
+    width: auto;
     font-family: 'Roboto Condensed', sans-serif;
 }
